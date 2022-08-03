@@ -655,3 +655,39 @@ body {
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .nav {
+        padding: 60px 40px;
+    }
+    .intro-section {
+        padding: 0px 40px;
+    }
+    .stats-section {
+        padding: 90px 40px;
+    }
+    .features-section {
+        padding: 40px;
+    }
+    .companies-section {
+        padding: 60px 40px;
+    }
+    .companies img {
+        height: 50px;
+    }
+    .testimonial-section {
+        padding: 40px;
+    }
+    .courses-section {
+        padding: 40px;
+    }
+    .team-section {
+        padding: 100px 40px;
+    }
+    .download-app-section {
+        padding: 100px 40px;
+    }
+    .footer {
+        padding: 0 40px;
+    }
+}

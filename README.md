@@ -5,7 +5,7 @@
 [https://www.findcoder.io/u/dhruvil](https://www.findcoder.io/u/dhruvil)
 
 ## Live Preview
-
+[https://webineuron.vercel.app/](https://webineuron.vercel.app/)
 
 ## Video
 
@@ -16,3 +16,4 @@
 ![Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ## Deployment
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=#00C7B7)
