@@ -25,12 +25,23 @@ body {
     justify-content: space-between;
     align-items: center;   
 }
-
+.nav .links-mobile {
+    display: none;
+}
 .nav .link {
     text-decoration: none;
     color: #000;
     margin-right: 30px;
     transition: 200ms;
+}
+.link-mobile-menu-btn {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.link-mobile-menu-btn svg {
+    width: 24px;
+    height: 24px;
 }
 
 .nav .link:hover {
@@ -466,7 +477,6 @@ body {
 }
 .footer-address {
     display: flex;
-    align-items: center;
     margin-top: 35px;
     gap: 20px;
     text-decoration: none;
@@ -518,3 +528,130 @@ body {
     text-align: center;
 }
 /* SECTION FOOTER */
+
+
+
+
+@media screen and (max-width: 1440px) {
+    .nav .link {
+        margin-right: 10px;
+    }
+    .nav .links .link-btn-signin {
+        margin-right: 10px;
+    }
+    .nav .links .link-btn-signup {
+        margin-right: 10px;
+    }
+    .intro-section-right img {
+        width: 600px;
+    }
+    .stats-section {
+        gap: 50px;
+    }
+    .download-section-image img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav .links .link-btn-signin, .nav .links .link-btn-signup {
+        padding: 5px 10px;
+    }
+    .intro-section-right img {
+        width: 400px;
+    }
+    .intro-section-left h1, .intro-section-left span {
+        font-size: 3rem;
+    }
+    .feature-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .feature-card {
+        width: 35%;
+    }
+    .course-cards {
+        gap: 10px;
+    }
+    .course-img-box img {
+        height: 100px;
+    }
+    .course-title {
+        font-size: 1rem;
+    }
+    .user-info img {
+        width: 48px;
+        height: 48px;
+    }
+    .download-section-image img {
+        width: 300px;
+    }
+    .download-section-details h3 {
+        font-size: 2rem;
+    }
+    .stats-section {
+        gap: 20px;
+    }
+    .stat h3 {
+        font-size: 2rem;
+    }
+    .stat p {
+        font-size: 1rem;
+    }
+    .footer-links-container {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav .links {
+        display: none;
+    }
+    .nav .links-mobile {
+        display: block;
+    }
+    .intro-section {
+        flex-direction: column;
+    }
+    .intro-section-right img {
+        width: 100%;
+    }
+    .stats-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .course-cards {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .course-img-box img {
+        height: fit-content;
+    }
+    .download-section-details {
+        flex-direction: column;
+    }
+    .download-section-store-links a {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .download-section-store-links a img {
+        width: 100%;
+    }
+    .download-section-image img {
+        width: 100%;
+    }
+    .feature-cards {
+        flex-direction: column;
+    }
+    .feature-card {
+        width: auto;
+    }
+    .testimonial-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-links-container {
+        flex-direction: column;
+    }
+}
