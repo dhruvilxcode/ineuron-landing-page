@@ -187,6 +187,204 @@ body {
     margin-top: 20px;
 }
 .feature-card p {
-
+    margin-top: 10px;
 }
 /* SECTION FEATURES */
+
+
+/* SECTION COMPANIES */
+.companies-section {
+    margin-top: 100px;
+    padding: 60px 80px;
+    background-color: var(--light-grey);
+
+}
+.companies-section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.companies {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+/* SECTION COMPANIES */
+
+
+/* SECTION TESTIMONIAL */
+.testimonial-section {
+    margin-top: 100px;
+    padding: 40px 80px;
+}
+.testimonial-section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.testimonial-cards {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.testimonial-card {
+    padding: 40px;
+    border-radius: 34px;
+    background-color: #fff;
+    box-shadow: 14px 30px 80px rgba(0,0,0,0.03);
+}
+.user-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.user-info img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+.user-info .user-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.user-info .user-designation {
+    font-weight: 400;
+}
+.testimonial-card .user-review {
+    margin-top: 40px;
+}
+/* SECTION TESTIMONIAL */
+
+
+/* SECTION COURSES */
+.courses-section {
+    margin-top: 100px;
+    padding: 40px 80px;
+}
+.courses-section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.course-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+.course-card {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 4px solid #fafafa;
+    padding: 16px;
+    padding-bottom: 40px;
+    transition: 200ms;
+}
+.course-card:hover {
+    cursor: pointer;
+    border: 4px solid #ececec;
+}
+.course-img-box img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.course-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.course-instructor {
+    margin-top: 15px;
+}
+.course-price {
+    margin-top: 15px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.courses-section .courses-explore-more {
+    text-align: center;
+    margin-top: 100px;
+}
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 15px 30px;
+    border-radius: 40px;
+    transition: 200ms;
+}
+.btn:hover {
+    background-color: #d0562a;
+}
+/* SECTION COURSES */
+
+
+/* SECTION TEAM */
+.team-section {
+    margin-top: 100px;
+    padding: 100px 80px;
+    background-color: var(--light-grey);
+}
+.team-section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.team-cards {
+    margin-top: 100px;
+}
+.team-card {
+    width: 350px;
+    background-color: #fff;
+    display: inline-block;
+    margin-right: 50px;
+}
+.team-person-img-box {
+    background: url("../assets/team-bg.svg");
+    background-position: center;
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.team-person-img-box img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: -7px;
+    border-radius: 8px;
+}
+.team-person-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+.team-person-details h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.team-person-details p {
+    font-size: 20px;
+}
+.team-social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.team-person-details a {
+    text-decoration: none;
+    outline: none;
+}
+/* SECTION TEAM */
