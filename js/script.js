@@ -51,3 +51,15 @@ const swiper = new Swiper('.swiper', {
     //     el: '.swiper-scrollbar',
     // },
 });
+
+const mobileNav = document.querySelector(".mobile-nav")
+const btnMenuOpen = document.querySelector(".link-mobile-menu-btn");
+const btnMenuClose = document.querySelector(".btn-close-menu");
+
+btnMenuOpen.addEventListener("click", ()=>{
+    mobileNav.style.display = "block";
+})
+
+btnMenuClose.addEventListener("click", ()=>{
+    mobileNav.style.display = "none";
+})

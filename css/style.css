@@ -75,6 +75,70 @@ body {
     background-color: #d0562a;
 }
 
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.mobile-nav {
+    position: fixed;
+    display: none;
+    background-color: #fff;
+    z-index: 999;
+    border-radius: 18px;
+    box-shadow: 4px 4px 80px rgba(0,0,0,0.1);
+    width: 90%;
+    top: 50px;
+    left: 5%;
+    animation: fade-in 400ms ease-in;
+    -webkit-animation: fade-in 400ms ease-in;
+}
+.mobile-nav .links {
+    padding: 40px 30px;
+}
+.mobile-nav .links .link {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin-bottom: 20px;
+}
+.mobile-nav .link-btn-signin {
+    width: fit-content;
+    display: block;
+    text-decoration: none;
+    margin-right: 30px;
+    color: #000;
+    background-color: var(--light-orange);
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 200ms;
+    margin-bottom: 20px;
+
+}
+.mobile-nav .link-btn-signup {
+    width: fit-content;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 200ms;
+}
+.mobile-nav .btn-close-menu {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.mobile-nav .btn-close-menu img {
+    width: 24px;
+}
+
 .text-color-primary {
     color: var(--primary-color);
 }
