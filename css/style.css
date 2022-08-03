@@ -349,7 +349,9 @@ body {
     width: 350px;
     background-color: #fff;
     display: inline-block;
-    margin-right: 50px;
+    border-radius: 8px;
+
+    /* margin-right: 50px; */
 }
 .team-person-img-box {
     background: url("../assets/team-bg.svg");
@@ -369,7 +371,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding: 20px;
+    padding: 40px 20px;
 }
 .team-person-details h3 {
     font-size: 24px;
@@ -386,6 +388,28 @@ body {
 .team-person-details a {
     text-decoration: none;
     outline: none;
+}
+.swiper {
+    width: 100%;
+    /* height: 500px; */
+}
+.swiper-button-prev {
+    background-color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+.swiper-button-prev::after {
+    font-size: 1rem !important;
+}
+.swiper-button-next {
+    background-color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+.swiper-button-next::after {
+    font-size: 1rem !important;
 }
 /* SECTION TEAM */
 
