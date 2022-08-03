@@ -388,3 +388,109 @@ body {
     outline: none;
 }
 /* SECTION TEAM */
+
+
+
+/* SECTION DOWNLOAD APP */
+.download-app-section {
+    margin-top: 100px;
+    padding: 100px 80px;
+}
+.download-app-section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.download-section-details {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.download-section-details h3 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+.download-section-details p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.download-section-store-links {
+    margin-top: 80px;
+}
+.download-section-store-links a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+/* SECTION DOWNLOAD APP */
+
+
+/* SECTION FOOTER */
+.footer {
+    margin-top: 100px;
+    padding: 0px 80px;
+    background-color: var(--dark-violet);
+    color: #fff;
+}
+.footer-links-container {
+    display: flex;
+    gap: 100px;
+}
+.links-container {
+    margin-top: 50px;
+}
+.footer-address {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    gap: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.footer-mail {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.footer-social {
+    margin-top: 30px;
+}
+.footer-social-link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.link-container-title {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: relative;
+}
+.link-container-title::after {
+    content: "";
+    position: absolute;
+    width: 25%;
+    border-bottom: 1px solid #fff;
+    bottom: -5px;
+    left: 0;
+}
+.footer-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+.copyright p {
+    font-size: 1rem;
+    text-align: center;
+}
+/* SECTION FOOTER */
