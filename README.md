@@ -31,6 +31,8 @@ As per Technology wise i used HTML, CSS, JavaScript (Little bit).
 
 Used Media Queries 🖼 , so it is now Responsive to Smartphone, Tablet and Desktops. 
 
+The Entire page is **optimized** ⚡️ for **performance**, images are optimized, used SVGs at possible places, The page will load Super fast.
+
 Used [SwiperJS](https://swiperjs.com/), to add slider in Team Section. 
 
 
