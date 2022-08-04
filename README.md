@@ -4,7 +4,7 @@
 [dhruvil](https://www.findcoder.io/u/dhruvil "findcoder.io/u/dhruvil")
 
 ## Live Preview
-[https://webineuron.vercel.app/](https://webineuron.vercel.app/)
+[https://ineurondhruvil.vercel.app/](https://ineurondhruvil.vercel.app/)
 
 ## Video
 
