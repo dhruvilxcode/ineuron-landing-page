@@ -1,13 +1,37 @@
 # Hackathon: iNeuron Landing Page
 
 ## Coder, Designer
-
-[https://www.findcoder.io/u/dhruvil](https://www.findcoder.io/u/dhruvil)
+[dhruvil](https://www.findcoder.io/u/dhruvil "findcoder.io/u/dhruvil")
 
 ## Live Preview
 [https://webineuron.vercel.app/](https://webineuron.vercel.app/)
 
 ## Video
+
+
+## Description
+
+I took inspiration from iNeuron Website, First i examined the iNeuron logo, and found that logo is designed using mainly **2 Colors** one of them is **orange**, and orange color is widely used in Design industry as sign of Honest, Trust, Pure. 
+
+I Selected the color, tweaked it little bit, to get nice color in Figma.
+![color](./readme_assets/colors.png)
+by the way Figma file and Colors are added here, found the link below 👇
+
+[Figma Design File](./ineuron-landing-page.fig)
+
+Then i searched for good fonts, so i went on Google Fonts, found 10 fonts which i found very good, it was tough decision to select one from them, as in Good design, you should not pick more than 2 fonts, it will make any design bad. so i only picked one, which was nicely designed font
+
+![typography](./readme_assets/typography.png)
+
+Now it was time for designing the web page for iNeuron, in original web page, there are lots of sections available, i rearranged them as per giving good experience to user and for making Impact.
+
+i created this website design by some ideas like minimalism, clean, impactful, easy to find.
+
+As per Technology wise i used HTML, CSS, JavaScript (Little bit).
+
+Used Media Queries 🖼 , so it is now Responsive to Smartphone, Tablet and Desktops. 
+
+Used [SwiperJS](https://swiperjs.com/), to add slider in Team Section. 
 
 
 ## Technology
