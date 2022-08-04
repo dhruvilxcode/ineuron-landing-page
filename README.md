@@ -31,7 +31,7 @@ As per Technology wise i used HTML, CSS, JavaScript (Little bit).
 
 Used Media Queries 🖼 , so it is now Responsive to Smartphone, Tablet and Desktops. 
 
-The Entire page is **optimized** ⚡️ for **performance**, images are optimized, used SVGs at possible places, The page will load Super fast.
+The Entire page is **optimized** ⚡️ for **performance**, images are optimized, used SVGs at possible places, The page will load Super fast. I tested the performance Using Google Chrome's **Lighthouse**, and i got the result of 96/100 on Mobile, and again i attempted a Lighthouse Performance Test on Desktop and it gave me 100/100 result. Pretty good isn't it? 😄
 
 Used [SwiperJS](https://swiperjs.com/), to add slider in Team Section. 
 
