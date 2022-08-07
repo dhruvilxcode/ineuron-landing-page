@@ -9,6 +9,9 @@
 ## Video
 [https://www.youtube.com/watch?v=YgzzlIywLg4](https://www.youtube.com/watch?v=YgzzlIywLg4)
 
+## Screenshot
+![website preview](./readme_assets/ineruon-website-preview.jpg)
+
 ## Description
 
 I took inspiration from iNeuron Website, First i examined the iNeuron logo, and found that logo is designed using mainly **2 Colors** one of them is **orange**, and orange color is widely used in Design industry as sign of Honest, Trust, Pure. 
